@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7D95CFA299A7CCC0052F80D /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D95CF9299A7CCC0052F80D /* DayView.swift */; };
+		D7D95CFC299BA2ED0052F80D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D95CFB299BA2ED0052F80D /* Utils.swift */; };
 		D7DE6CF8299A5D25003FA9A3 /* SchedueltApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE6CF7299A5D25003FA9A3 /* SchedueltApp.swift */; };
 		D7DE6CFA299A5D25003FA9A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE6CF9299A5D25003FA9A3 /* ContentView.swift */; };
 		D7DE6CFC299A5D26003FA9A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DE6CFB299A5D26003FA9A3 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7D95CF9299A7CCC0052F80D /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		D7D95CFB299BA2ED0052F80D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		D7DE6CF4299A5D25003FA9A3 /* Scheduelt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scheduelt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DE6CF7299A5D25003FA9A3 /* SchedueltApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedueltApp.swift; sourceTree = "<group>"; };
 		D7DE6CF9299A5D25003FA9A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				D7DE6CF7299A5D25003FA9A3 /* SchedueltApp.swift */,
 				D7DE6CF9299A5D25003FA9A3 /* ContentView.swift */,
 				D7DE6D09299A6B6C003FA9A3 /* AddEvent.swift */,
+				D7D95CFB299BA2ED0052F80D /* Utils.swift */,
+				D7D95CF9299A7CCC0052F80D /* DayView.swift */,
 				D7DE6D05299A674B003FA9A3 /* EventItem.swift */,
 				D7DE6D07299A6B5C003FA9A3 /* Events.swift */,
 				D7DE6CFB299A5D26003FA9A3 /* Assets.xcassets */,
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7DE6D08299A6B5C003FA9A3 /* Events.swift in Sources */,
+				D7D95CFA299A7CCC0052F80D /* DayView.swift in Sources */,
 				D7DE6D0A299A6B6C003FA9A3 /* AddEvent.swift in Sources */,
+				D7D95CFC299BA2ED0052F80D /* Utils.swift in Sources */,
 				D7DE6CFA299A5D25003FA9A3 /* ContentView.swift in Sources */,
 				D7DE6CF8299A5D25003FA9A3 /* SchedueltApp.swift in Sources */,
 				D7DE6D06299A674B003FA9A3 /* EventItem.swift in Sources */,

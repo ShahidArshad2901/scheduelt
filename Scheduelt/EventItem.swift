@@ -13,5 +13,5 @@ struct EventItem: Identifiable, Codable {
     let description: String
     let startTime: Date
     let endTime: Date
-    let date: Int
+    let date: Date
 }
